@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> 
+
+    <meta charset="UTF-8">
+    <title>Huellas Peluqueria Canina by Jasmin y Yaiza</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            background-color: #0f8b8d
+            margin: 0;
+            padding: 40px;
+        }
+        nav {
+            background-color: #0f8b8d;
+            padding:20px;
+            text-align:center;
+            border-radius:15px;
+            margin-bottom:30px;
+
+            position:sticky;
+            top:0;
+            z-index:1000;
+        }
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:22px;
+            font-weight:bold;
+        }
+        nav a:hover{
+            color:#ffd166;
+        }
+        h1{
+            text-align: center;
+        }
+        .logo{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        .logo img{
+            width:300px;
+            max-width:100%;
+            heigh:auto;
+            display:block;
+            margin:0 auto;
+            
+        .logo{
+            text-align:center;
+            overflow:hidden;
+        }
+        }
+        h1 {
+            text-align: center;
+            color: teal;
+            font-size: 45px;
+            margin-top:10px;
+            margin-bottom:30px;
+        }
+
+        .contenedor{
+            max-width:700px;
+            margin:0 auto;
+            text-align: left;
+        }
+
+        .caja {
+            background: white;
+            padding:25px;
+            margin-bottom:40px;
+            border-radius: 15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    
+        }
+
+        h2 {
+            color: #0f8b8d;
+            font-size:38px;
+            margin-bottom:20px;
+            border-bottom: 2px solid #0f8b8d;
+            padding-bottom:10px;
+            font-weight:bold;
+            
+        }
+
+        
+
+        ul{
+            list-style:none;
+            padding:0;
+        }
+
+        li {
+            padding:10px 0;
+            font-size:20px;
+            border-bottom:1px solid #ddd;
+        }
+        form {
+            margin-top:20px;
+        }
+
+        label {
+            font-size:20px;
+            font-weight:bold;
+            color:teal;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 12px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background: teal;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 12px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #006666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#reservas">Reservas</a>
+        <a href="#galería">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+<div class="contenedor">
+    <div class="logo" id="inicio">
+        <img src="perro.jpg" alt="Huellas Peluqueria canina">
+    </div>
+    <div class="caja">
+
+<h1 id="servicios">Servicios</h1>
+
+<h2>Baños</h2>
+
+     <ul>
+       <li>Perro mini - 17€</li>
+       <li>Perro pequeño - 19€</li>
+       <li>Perro mediano - 22€</li>
+       <li>Perro grande - 25€</li>
+    </ul> 
+</div>
+<div class="caja">
+
+     <h2>Cortes</h2>
+
+    <ul>
+        <li>Perro mini - 20€</li>
+        <li>Perro pequeño - 24€</li>
+        <li>Perro mediano - 28€</li>
+        <li>Perro grande - 32€</li>
+    </ul>
+
+</div>
+<div class= "caja">
+
+    <h2>Servicios Especiales</h2>
+
+    <ul>
+        <li>Corte de uñas - 3,50€</li>
+        <li>Champu antiparasitario - 32€</li>
+        <li>Limpieza de oidos - 3,50€</li>
+    </ul>
+</div>
+
+<div class="caja">
+    <h2>Horarios</h2>
+
+    <ul>
+        <li>Lunes a Viernes - 9:30 a 13:30 y de 17:00 a 20:30</li>
+        <li>Sabados solo con cita previa</li>
+        <li>Domingos cerrado</li>
+        
+    </ul>
+</div>
+
+<div class="caja">
+   <h1 id="reservas">Reservas</h1>
+   <form>
+    <label>Nombre del perro:</label><br>
+    <input type="text"placeholder="Nombre"><br><br>
+
+    <label>Fecha:</label><br>
+    <input type="date"><br><br>
+
+    <label>Hora:</label><br>
+    <input type="time"><br><br>
+
+    <label>Servicios:</label><br>
+    <select>
+        <option>Baño</option>
+        <option>Corte</option>
+        <option>Servicio especial</option>
+    </select><br><br>
+   </form>
+   </div>
+
+   <div class="caja">
+    <h1 id="contacto">Contacto</h1>
+
+    
+    <p> &#128222; 688704485</p>
+
+    <p> &#128205; C/Mesón Nº41, Albatera</p>
+
+    <p> &#128247; @huellasjasminyyaiza</p>
+
+   </div>
+
+
+
+</body>
+
+</html>
